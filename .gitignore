@@ -1,0 +1,6 @@
+.DS_Store
+.env
+*.local.md
+private/
+daily-notes/
+__pycache__/

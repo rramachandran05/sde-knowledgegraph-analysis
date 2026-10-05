@@ -1,0 +1,130 @@
+subject	predicate	object	source_file
+lsda:biospecimen	are	iri:http://purl.obolibrary.org/obo/OBI_0001479	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	are	sddo:specimen	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	has	lsda:age	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	has	lsda:bio_cat_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	has	lsda:bio_id	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	has	lsda:bio_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	has	lsda:description	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	has	lsda:fixative	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	has	lsda:gender	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	has	lsda:protocol	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	has	lsda:session_type	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	has	lsda:species	LSDA2SMDmapping_20220311_dcb.xml
+lsda:biospecimen	lsda:hasGeneticType	lsda:strain	LSDA2SMDmapping_20220311_dcb.xml
+lsda:component	has	lsda:component_description	LSDA2SMDmapping_20220311_dcb.xml
+lsda:component	has	lsda:component_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:component	ro:part of	lsda:hardware	LSDA2SMDmapping_20220311_dcb.xml
+lsda:configuration	has	lsda:configuration_description	LSDA2SMDmapping_20220311_dcb.xml
+lsda:configuration	has	lsda:configuration_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:configuration	ro:inheres in	lsda:hardware	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	are	iri:http://purl.obolibrary.org/obo/IAO_0000100	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	are	sddo:dataProduct	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	has	lsda:availability	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	has	lsda:dataset_catalog	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	has	lsda:dataset_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	has	lsda:location	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	has	lsda:protocol_approach	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	has	lsda:release_date	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	has	lsda:research_area	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	has	lsda:review	LSDA2SMDmapping_20220311_dcb.xml
+lsda:dataset	lsda:ownedBy	lsda:personnel	LSDA2SMDmapping_20220311_dcb.xml
+lsda:datasetFiles	ro:part of	lsda:dataset	LSDA2SMDmapping_20220311_dcb.xml
+lsda:document	has	lsda:availability	LSDA2SMDmapping_20220311_dcb.xml
+lsda:document	has	lsda:document_description	LSDA2SMDmapping_20220311_dcb.xml
+lsda:document	has	lsda:document_number	LSDA2SMDmapping_20220311_dcb.xml
+lsda:document	has	lsda:document_title	LSDA2SMDmapping_20220311_dcb.xml
+lsda:document	has	lsda:research_area	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	are	iri:http://purl.obolibrary.org/obo/OBI_0000066	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	are	sddo:experiment	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	has	lsda:alias	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	has	lsda:description	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	has	lsda:experiment_description	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	has	lsda:experiment_id	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	has	lsda:experiment_title	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	has	lsda:experiment_type	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	has	lsda:keywords	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	has	lsda:proposal_date	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	has	lsda:research_area	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	lsda:fundedBy	lsda:program	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	lsda:managedAt	lsda:nasa_center	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	ro:has participant	lsda:biospecimen	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	ro:has participant	lsda:institution	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	ro:has participant	lsda:investigator	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	ro:has participant	lsda:payload	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	ro:has participant	lsda:personnel	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	ro:has participant	lsda:subject	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	sddo:generates	lsda:dataset	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experiment	sddo:uses	lsda:hardware	LSDA2SMDmapping_20220311_dcb.xml
+lsda:experimentDocument	are	lsda:document	LSDA2SMDmapping_20220311_dcb.xml
+lsda:hardware	are	iri:http://purl.obolibrary.org/obo/OBI_0000968	LSDA2SMDmapping_20220311_dcb.xml
+lsda:hardware	are	sddo:experimentApparatus	LSDA2SMDmapping_20220311_dcb.xml
+lsda:hardware	has	lsda:hardware_description	LSDA2SMDmapping_20220311_dcb.xml
+lsda:hardware	has	lsda:hardware_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:hardware	has	lsda:hardware_type	LSDA2SMDmapping_20220311_dcb.xml
+lsda:hardware	has	lsda:research_area	LSDA2SMDmapping_20220311_dcb.xml
+lsda:hardware	ro:part of	lsda:payload	LSDA2SMDmapping_20220311_dcb.xml
+lsda:hardwareDocument	are	lsda:document	LSDA2SMDmapping_20220311_dcb.xml
+lsda:institution	are	iri:http://purl.obolibrary.org/obo/OBI_0000245	LSDA2SMDmapping_20220311_dcb.xml
+lsda:institution	are	sddo:organization	LSDA2SMDmapping_20220311_dcb.xml
+lsda:institution	has	lsda:institution_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:investigator	are	lsda:personnel	LSDA2SMDmapping_20220311_dcb.xml
+lsda:investigator	ro:has role	iri:http://purl.obolibrary.org/obo/OBI_0000202	LSDA2SMDmapping_20220311_dcb.xml
+lsda:missionDocument	are	lsda:document	LSDA2SMDmapping_20220311_dcb.xml
+lsda:nasa_center	are	sddo:facility	LSDA2SMDmapping_20220311_dcb.xml
+lsda:nasa_center	has	lsda:nasa_center_code	LSDA2SMDmapping_20220311_dcb.xml
+lsda:newsletterDocument	are	lsda:document	LSDA2SMDmapping_20220311_dcb.xml
+lsda:payload	are	iri:http://purl.obolibrary.org/obo/BFO_0000040	LSDA2SMDmapping_20220311_dcb.xml
+lsda:payload	are	sddo:experimentApparatus	LSDA2SMDmapping_20220311_dcb.xml
+lsda:payload	has	lsda:payload_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:payload	has	lsda:payload_title	LSDA2SMDmapping_20220311_dcb.xml
+lsda:personnel	are	iri:http://purl.obolibrary.org/obo/NCBITaxon_9606	LSDA2SMDmapping_20220311_dcb.xml
+lsda:personnel	are	sddo:person	LSDA2SMDmapping_20220311_dcb.xml
+lsda:personnel	has	lsda:city	LSDA2SMDmapping_20220311_dcb.xml
+lsda:personnel	has	lsda:firstname	LSDA2SMDmapping_20220311_dcb.xml
+lsda:personnel	has	lsda:lastname	LSDA2SMDmapping_20220311_dcb.xml
+lsda:personnel	has	lsda:middlename	LSDA2SMDmapping_20220311_dcb.xml
+lsda:personnel	has	lsda:per_id	LSDA2SMDmapping_20220311_dcb.xml
+lsda:personnel	lsda:operates	lsda:payload	LSDA2SMDmapping_20220311_dcb.xml
+lsda:personnel	ro:member of	lsda:institution	LSDA2SMDmapping_20220311_dcb.xml
+lsda:personnel	ro:member of	lsda:nasa_center	LSDA2SMDmapping_20220311_dcb.xml
+lsda:photoGallery	are	sddo:photoGallery	LSDA2SMDmapping_20220311_dcb.xml
+lsda:photoGallery	has	lsda:image_id	LSDA2SMDmapping_20220311_dcb.xml
+lsda:photoGallery	has	lsda:keyword	LSDA2SMDmapping_20220311_dcb.xml
+lsda:photoGallery	has	lsda:photo_description	LSDA2SMDmapping_20220311_dcb.xml
+lsda:photoGallery	has	lsda:proposal_source	LSDA2SMDmapping_20220311_dcb.xml
+lsda:photoGallery	has	lsda:research_area	LSDA2SMDmapping_20220311_dcb.xml
+lsda:photo_file	has	lsda:file_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:photo_file	has	lsda:file_thumbnail	LSDA2SMDmapping_20220311_dcb.xml
+lsda:photo_file	lsda:depicts	lsda:investigator	LSDA2SMDmapping_20220311_dcb.xml
+lsda:photo_file	ro:part of	lsda:photoGallery	LSDA2SMDmapping_20220311_dcb.xml
+lsda:program	has	lsda:program_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:projectDocument	are	lsda:document	LSDA2SMDmapping_20220311_dcb.xml
+lsda:publicationDocument	are	lsda:document	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	are	iri:http://purl.obolibrary.org/obo/OBI_0000011	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	are	sddo:mission	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	are	sddo:researchMission	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	has	lsda:duration	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	has	lsda:durationRange	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	has	lsda:landDate	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	has	lsda:launchDate	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	has	lsda:mission_description	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	has	lsda:mission_id	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	lsda:implements	lsda:experiment	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	lsda:implements	sddo:researchInvestigation	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	lsda:investigates	lsda:research_area	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	ro:part of	lsda:program	LSDA2SMDmapping_20220311_dcb.xml
+lsda:researchMission	sddo:uses	lsda:payload	LSDA2SMDmapping_20220311_dcb.xml
+lsda:scientific name	are	iri:http://purl.obolibrary.org/obo/OBI_0100026	LSDA2SMDmapping_20220311_dcb.xml
+lsda:scientificResultsDocument	are	lsda:document	LSDA2SMDmapping_20220311_dcb.xml
+lsda:spacecraft	are	sddo:platform	LSDA2SMDmapping_20220311_dcb.xml
+lsda:species	ro:inheres in	lsda:subject	LSDA2SMDmapping_20220311_dcb.xml
+lsda:subject	are	lsda:scientific name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:subject	are	sddo:feature	LSDA2SMDmapping_20220311_dcb.xml
+lsda:subject	has	lsda:scientific_name	LSDA2SMDmapping_20220311_dcb.xml
+lsda:subject	has	lsda:species	LSDA2SMDmapping_20220311_dcb.xml
+lsda:subject	has	lsda:subject_id	LSDA2SMDmapping_20220311_dcb.xml
+lsda:subject	has	sddo:organism	LSDA2SMDmapping_20220311_dcb.xml
+lsda:subject	ro:part of	lsda:experiment	LSDA2SMDmapping_20220311_dcb.xml
+lsda:technicalPaperDocument	are	lsda:document	LSDA2SMDmapping_20220311_dcb.xml
+sddo:organism	ro:part of	sddo:feature	LSDA2SMDmapping_20220311_dcb.xml

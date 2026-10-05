@@ -1,0 +1,28 @@
+subject_class	property	object_class
+NASA program	funds	NASAMission
+access interface	present	product
+assay	capableOfDetecting	event
+assay	capableOfIdentifying	feature
+assay	createdBy	laboratoryProcedure
+campaign	resultsIn	product
+campaign	uses	instrument host
+data element	isResultOf	observation
+experiment	componentOf	research investigation
+experiment	conductedAt	facility
+experiment	conductedOn	organism
+experiment	generates	specimen
+experiment	partOf	mission
+experiment	uses	experiment Apparatus
+factor	experimentalContextFor	observation
+instrument	operatesOn	instrument host
+instrument operating mode	capableOfDetecting	event
+instrument operating mode	capableOfIdentifying	feature
+laboratoryProcedure	conductedAt	facility
+mission	deployedOn	hardware
+mission	organizedBy	space agency
+organization	hasRole	author
+organization	hasRole	funder
+organization	hasRole	investigator
+person	hasRole	author
+person	hasRole	organism
+specimen	usedIn	assay

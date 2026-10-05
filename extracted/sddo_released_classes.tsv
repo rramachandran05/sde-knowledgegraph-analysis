@@ -1,0 +1,51 @@
+sddo_id	label	definition	parents
+SDDO:1000001	pds_Data_Set_PDS3	A PDS data product from the PDS 3 data model.	PDS data product
+SDDO:1000002	spase:DisplayData	A graphical representation of data wherein the underlying numeric values are not (readily) accessible for analysis.	data product
+SDDO:1000003	spase:Catalog	A tabular listing of events or observational notes, especially those that have utility in aiding a user in locating data.	data product
+SDDO:1000004	spase:NumericalData	Data stored as numerical values in one or more specified formats.	data product
+SDDO:1000007	PDS data product	A product from the PDS data system	data product
+SDDO:1000008	pds_Collection_with_Type_Data	A PDS data product from the PDS 4 data model.	PDS data product
+SDDO:1000009	discovery interface	An interface that 1) presents users with discovery criteria and may 2) lead to an access interface.	software interface
+SDDO:1000010	field campaign	A campaign that is coordinated among one or more individuals and/or one or more organizations.	campaign
+SDDO:1000011	investigation	A set of experiments and/or observations.	planned process
+SDDO:1000012	observing campaign	A campaign that 1) uses primarily but not exclusively existing facilities and 2) after and possibly during which other investigations are carried out using the same facilities.	campaign
+SDDO:3000044	event	Something observable that happened at a given time and place	process; phenomenon
+SDDO:3000045	campaign	A systematic set of activities undertaken to meet a particular science objective.	investigation
+SDDO:3000047	assay	An assay is an investigative (analytic) procedure for qualitatively assessing or quantitatively measuring the presence, amount, or functional activity of a target entity.	
+SDDO:3000051	data product	A product containing science data from some investigation.	product
+SDDO:3000054	hardware	The mechanical, magnetic, electronic, and electrical equipment necessary for conducting an activity.	material entity
+SDDO:3000056	author	An originator or creator of a work	role
+SDDO:3000059	space agency	A government agency engaged in activities related to outer space and space exploration.	organization
+SDDO:3000060	instrument host	The physical object upon or within which an instrument is mounted.	role; Platform
+SDDO:3000065	organism	The quality of a living subject that indicates the taxonomical grouping of the subject. This grouping can be at any level in a hierachy of organism classification, or a collection of levels, and can be using scientific language or colloquial language.	organism
+SDDO:3000066	product	Any offered product or service.	information content entity
+SDDO:3000069	study	A data product from the GeneLab repository	data product
+SDDO:3000071	factor	The role played by an entity as part of a scientific investigation such that levels of the measurement or observation of the entity are thought to bear upon the hypotheses being investigated.	role
+SDDO:3000075	access interface	A software interface that 1) presents users with selection criteria and 2) presents products or services that meet the criteria the user then selects.	software interface
+SDDO:3000077	research investigation	An investigation that 1) uses existing facilities and 2) is under the direction of a single individual.	investigation
+SDDO:3000078	specimen	A part of a feature, taken to demonstrate or to determine the character of the whole.	specimen
+SDDO:3000079	information product	A product that describes some entity.	product
+SDDO:3000080	experiment Apparatus	Hardware used in conducting an experiment.	hardware
+SDDO:3000081	deployment	The realisation of an application, or execution of a plan, idea, model, design, specification, standard, algorithm, or policy.	planned process
+SDDO:3000084	software	An information content entity that 1) contains a set of machine-readable instructions (most often in the form of a computer program) that 2) conform to a given syntax (sometimes referred to as a language) that 3) is interpretable by a given processor and that 4) directs a computer's processor to perform specific operations.	software
+SDDO:3000086	funder	A role in which the bearer delivers financial support to enable some activity.	role
+SDDO:3000087	instrument operating mode	An identified configuration for an instrument.	directive information entity
+SDDO:3000088	mission	Coordinated tasks and operations undertaken to meet a set of specific objectives, within clearly delineated time and location constraints.	planned process
+SDDO:3000089	laboratoryProcedure	Any procedure that involves testing or manipulating a sample or subject in a laboratory setting	planned process
+SDDO:3000090	person	An agent that is a human being.	http://xmlns.com/foaf/0.1/Agent
+SDDO:3000091	NASAMission	A mission led or funded by NASA	mission
+SDDO:3000092	instrument	An instrument is a physical object that can be used to collect data.	Sensor; access interface
+SDDO:3000094	experiment	A plan for a coordinated set of actions and observations designed to generate data, with the ultimate goal of discovery or hypothesis testing.	planned process
+SDDO:3000095	metadata product	An information product that contains structured metadata.	information product
+SDDO:3000096	feature	A material entity that has characteristics that can be qualified or quantified through observation or experiment.	material entity; phenomenon
+SDDO:3000098	facility	A construction, permanent or temporary, on land, in air, space or water, where scientific research or measurements can be undertaken.	material entity
+SDDO:3000099	phenomenon	A fact or situation that is observed to exist.	
+SDDO:3000100	observation	Act of carrying out an procedure to estimate or calculate a value of a property of a feature.	Observation; planned process
+SDDO:3000101	photoGallery	A graphical user interface that provides access to photographs/images.	graphical user interface
+SDDO:3000103	organization	An entity that can bear roles, has members, and has a set of organization rules.	http://xmlns.com/foaf/0.1/Agent
+SDDO:3000105	investigator		role
+SDDO:3000107	program	A broad framework of goals to be achieved.	organization
+SDDO:3000109	document	A written or printed paper that bears the original, official, or legal form of something and can be used to furnish decisive evidence or information.	document; information product
+SDDO:3000110	data element	A data element is any characteristic that can help in understanding data content. That is, a data element is any parameter or variable that is useful, or critical, when identifying or describing the content of a data object.	data item
+SDDO:3000113	firmware	Software that provides the low-level control for a device's specific hardware.	software
+SDDO:3000114	NASA program		program
